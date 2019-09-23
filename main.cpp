@@ -14,9 +14,8 @@ int main()
   cout<<"What is your last name?"<<endl;
   cin>>LastName;
 
-  cout<<FirstName<<LastName<<endl;
+  cout<<"Welcome, "<<FirstName.at(0)<<"."<<LastName.at(0)<<"."<<", here is your fortune."<<endl;
 
-  //tell fortune
 
   return 0;
 }
