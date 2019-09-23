@@ -6,6 +6,7 @@ using namespace std;
 
 int main()
 {
+  int lucky;
   string FirstName;
   string LastName;
 
@@ -14,8 +15,10 @@ int main()
   cout<<"What is your last name?"<<endl;
   cin>>LastName;
 
-  cout<<"Welcome, "<<FirstName.at(0)<<"."<<LastName.at(0)<<"."<<", here is your fortune."<<endl;
+  lucky = FirstName.length();
 
+  cout<<"Welcome, "<<FirstName.at(0)<<"."<<LastName.at(0)<<"."<<", here is your fortune."<<endl;
+  cout<<"your lucky number is "<<lucky<<endl;
 
   return 0;
 }
