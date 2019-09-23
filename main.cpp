@@ -1,4 +1,4 @@
-//Authors:
+//Authors:Brayden Falla
 #include<iostream>
 #include<string>
 
@@ -6,9 +6,15 @@ using namespace std;
 
 int main()
 {
-  //declare variables
+  string FirstName;
+  string LastName;
 
-  //get user input
+  cout<<"What is your first name?"<<endl;
+  cin>>FirstName;
+  cout<<"What is your last name?"<<endl;
+  cin>>LastName;
+
+  cout<<FirstName<<LastName<<endl;
 
   //tell fortune
 
