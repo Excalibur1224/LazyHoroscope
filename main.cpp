@@ -7,6 +7,7 @@ using namespace std;
 int main()
 {
   int lucky;
+  int index = 0;
   string FirstName;
   string LastName;
 
@@ -16,7 +17,7 @@ int main()
   cin>>LastName;
 
   lucky = FirstName.length();
-
+  index = LastName.length()-1;
   cout<<"Welcome, "<<FirstName.at(0)<<"."<<LastName.at(0)<<"."<<", here is your fortune..."<<endl;
   cout<<"your lucky number is "<<lucky<<endl;
 
@@ -25,7 +26,7 @@ int main()
   cout<<"you are destined to be famous!"<<endl;
   }
 
-  if(LastName.back()=='a'||LastName.back()=='e'||LastName.back()=='i'||LastName.back()=='o'||LastName.back()=='u'||LastName.back()=='A'||LastName.back()=='I'||LastName.back()=='O'||LastName.back()=='U')
+  if(LastName.at(index)=='a'||LastName.at(index)=='e'||LastName.at(index)=='i'||LastName.at(index)=='o'||LastName.at(index)=='u'||LastName.at(index)=='A'||LastName.at(index)=='E'||LastName.at(index)=='I'||LastName.at(index)=='O'||LastName.at(index)=='U')
 {
   cout<<"you have already met your true love."<<endl;
 
