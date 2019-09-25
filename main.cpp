@@ -26,6 +26,11 @@ int main()
   cout<<"you are destined to be famous!"<<endl;
   }
 
+  else{
+
+  cout<<"you should keep a low profile"<<endl;
+  }
+
   if(LastName.at(index)=='a'||LastName.at(index)=='e'||LastName.at(index)=='i'||LastName.at(index)=='o'||LastName.at(index)=='u'||LastName.at(index)=='A'||LastName.at(index)=='E'||LastName.at(index)=='I'||LastName.at(index)=='O'||LastName.at(index)=='U')
 {
   cout<<"you have already met your true love."<<endl;
